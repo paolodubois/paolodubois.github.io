@@ -1,1 +1,48 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    background-image: url('images/fond.jpg');
+}
 
+h1{
+    text-align: center;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    
+}
+div.conteneur{
+    overflow:hidden;
+
+}
+p.intro{
+    margin: 5%;
+    width: 40%;
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+    float:left; 
+    display:inline
+}
+img{
+    width: 40%;
+}
+h2{
+    text-align: center;
+    font-size:20px;
+    color: red;
+}
+p2{
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+}
+h3{
+    text-align: center;
+    font-size:20px;
+    color: red;
+}
+p3{
+    text-align: justify;
+    font-size: 15px;
+    color: white;
+}
