@@ -29,12 +29,14 @@ img{
 h2{
     text-align: center;
     font-size:20px;
-    color: red;
+    color: white;
 }
 p2{
     text-align: justify;
     font-size: 15px;
     color: white;
+    margin: 5%;
+    width: 95%
 }
 h3{
     text-align: center;
@@ -48,4 +50,15 @@ p.carte{
 }
 li{
   color: white;
+}
+.vertical-line{
+        border-left: 10px solid rgb(100,100,100);
+        display: inline-block;
+        margin: 2%;
+}
+.img2{
+  position: fixed;
+  margin-left: 20%;
+  bottom: 0px;
+  
 }
