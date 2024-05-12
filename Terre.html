@@ -1,52 +1,79 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<head>
+    <title>Encyclopédie Spaciale</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css.css"  rel="stylesheet" type="text/css"/>
+</head>
+
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <nav class="navbar">
-        <a href="#" class="logo">Logo</a>
-        <label for="btn" class="icon">
-            <svg viewBox="0 0 100 80" width="40" height="40">
-                <rect width="100" height="15"></rect>
-                <rect y="35" width="100" height="15"></rect>
-                <rect y="70" width="100" height="15"></rect>
-            </svg>
-        </label>
-        <input type="checkbox" id="btn">
-        <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="#">Accueil</a>
-            </li>
-            <li class="nav-item">
-                <a href="#">Articles</a>
-            </li>
-            <li class="nav-item">
-                <a href="#">Contact</a>
-            </li>
-            <li class="nav-item">
-                <label for="btn2" class="show">Mon compte +</label>
-                <input type="checkbox" id="btn2">
-                <ul class="dropdown">
-                    <li class="drop-item">
-                        <a href="#">Mon Profil</a>
-                    </li>
-                    <li class="drop-item">
-                        <a href="#">Articles</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="nav-item">
-                <a href="#">Déconnexion</a>
-            </li>
+<body class="vertical-line">
+    <h1>
+        La Terre
+    </h1>
+     <div class="conteneur">
+        <p class="intro">
+          Nous vivons sur le rocher le plus incroyable de l'Univers. Malgré nos efforts pour découvrir de nouveaux mondes habitables, celui-ci est le seul, à ce jour, qui réunit les conditions propices à la vie. À la bonne distance du Soleil, il n'est ni trop chaud ni trop froid. L'eau à l'état liquide, clé de la vie, y abonde. Moteur du temps, elle fait pousser les végétaux, qui nourrissent les animaux. La Terre est aussi la seule planète connue où l'oxygène est en suffisance pour nous maintenir en vie.
+        </p>
+        <p class="intro">
+            <table style="border: 2px white solid;">
+            <tr>
+            <td style="text-align: center; color: white; font-size: larger; border: 2px white solid;">La Terre</td>
+            </tr>
+            <tr>
+            <td style="text-align: center;"><img src="images\Terre.jpg" alt="image Terre"/></td>
+            </tr>
+            </table>
+        </p>
+    </div>
+    <h3>
+        Fiche d'identité
+    </h3>
+    <p class="carte">
+    <table style="border: 2px white solid;"; align="center">
+      <tr>
+      <td>
+      <ul>
+        <li>Distance moyenne au Soleil : 150 millions de km</li> 
+
+        <li>Température de surface : environ 15°C</li>
+
+        <li>Diamètre : 12000 km</li>
+        
+        <li>Durée du jour : 24 heures (1 jour terrestre)</li>
+        
+        <li>Durée de l'année : 365.25 jours terrestres</li>
+        
+        <li>Nombre de lunes : 1</li>
+        
+        <li>Gravité de surface (Terre = 1) : 1</li>
         </ul>
-    </nav>
-    </body>
+       </td>
+       </tr>
+       </table>
+    </p>
+    <h2>
+        La Lune
+    </h2>
+    <div class="conteneur">
+        <p class="intro">
+          Pleine, la Lune est l'objet le plus brillant de notre ciel après le Soleil. Elle fut la première destination de l'humanité dans l'espace. Douze êtres humains ont à ce jour marché à sa surface.
+                  </p>
+        <p class="intro">
+            <table style="border: 2px white solid;">
+            <tr>
+            <td style="text-align: center; color: white; font-size: larger; border: 2px white solid;">La Lune</td>
+            </tr>
+            <tr>
+            <td style="text-align: center;"><img src="images\Lune.jpg" alt="image Lune"/></td>
+            </tr>
+            </table>
+        </p>
+    </div>
+    <br/>
+    <img src="images/Terremap.jpg" alt="Image MarsMap"/>
+    <br/>
+    <a href="SystemeSun.html">Lien vers la page dédié au Système Solaire</a>
+    <a href="Terre.html">Planète précédante</a>
+    <a href="Jupiter.html">Planète suivante</a>
+</body>
 </html>
