@@ -67,3 +67,9 @@ li{
   border: 5px solid white;
     
 }
+.Indic{
+  font-style: italic;
+  font-size: 20px;
+  color: gray;
+  margin: 5%;
+}
