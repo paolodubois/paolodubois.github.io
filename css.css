@@ -72,3 +72,8 @@ li{
   color: gray;
   margin: 5%;
 }
+video{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
