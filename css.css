@@ -18,7 +18,7 @@ p.intro{
     margin: 5%;
     width: 40%;
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     float:left; 
     display:inline
@@ -45,7 +45,7 @@ h3{
 }
 p.carte{
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
     color: white;
 }
 li{
